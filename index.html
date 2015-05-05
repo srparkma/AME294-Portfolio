@@ -1,0 +1,411 @@
+<html> <!-- Base code taken and modified from www.whitewatercottageleavenworth.com with permissions from original authors David and Scott Parkman -->
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+    <title>Scott R. Parkman | Portfolio Page</title>
+<script type="text/javascript" src="./FadeImages.js"></script>
+<style>
+    /* RESETS */
+    body, a, div, span, h1, h2, h3, h4, h5, h6, p, img, br, ul, ol, li, dl, dt, dd, form, input {
+        color: #A80CA8; /* lilac */
+        margin: 0;
+        padding: 0;
+        outline: 0;
+        background-color: black;
+    }
+    
+    a {
+        cursor: pointer;
+    }
+    img {
+        border: 0;
+    }
+    body {
+        /*background: #1f1d13;/* dark Brown */
+        /*background: #0C6B0C;/* green */
+        /*background: #A80CA8;/* lilac */
+        background: #0;
+        font-family: Georgia, Times New Roman, Times, serif;
+    }
+    h1 {
+        color: #A80CA8; /* lilac */
+        font-weight: normal;
+        letter-spacing: -0.06em;
+        line-height: 1em;
+        padding-bottom: 0.1em;
+    }
+        h1 em {
+            color: #A80CA8; /* lilac */
+            font-style: italic;
+        }
+    h2, h3 {
+        color: #A80CA8; /* lilac */
+        font-weight: normal;
+        padding-bottom: 1em;
+    }
+        h3.huge {
+            font-weight: 100;
+            padding-bottom: 0.3em;
+        }
+    body#detail h2 {
+        font-weight: normal;
+        padding-bottom: 0.5em;
+    }
+    body#detail h3 {
+        font-style: italic;
+        font-weight: normal;
+        padding-bottom: 0.5em;
+        padding-top: 0.4em;
+    }
+
+    p {
+        color: #A80CA8; /* lilac */
+        line-height: 1.4em;
+        padding-bottom: 1em;
+    }
+    p.small {
+        line-height: 1.6em;
+    }
+    p.smaller 
+    {
+        line-height: 1.4em;
+        font-family: Lucida Sans Unicode, Lucida Grande, Lucida Sans, Lucida, Verdana, Arial, sans-serif;
+    }
+    p.larger {
+            font-size: 1.2em;
+            font-weight: 100;
+            line-height: 1.2em;
+        }
+    p.large {
+            font-size: 1.5em;
+            font-weight: 120;
+            line-height: 1.2em;
+        }
+
+    p.contact {
+        height: 10px;
+        line-height: 1.4em;
+        position: absolute;
+        top: 45px;
+        right: 0px;
+        text-align: right;
+        margin-right: 5px;
+    }
+
+    a {
+        color: #f;
+        text-decoration: none;
+    }
+    a:hover {
+            color: #f;
+            text-decoration: underline;
+        }
+    a:visited {
+            color: #f;
+        }
+
+    .italic {
+        font-style: italic;
+    }
+
+    div#indent {
+        text-indent: -60px;
+        padding-left: 60px;
+    }
+    div#main_wrapper {
+        width: 1100px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    div#main {
+        width: 900px;
+        height: 565px;
+        margin: auto;
+        position: relative;
+        background-color: #0; /* black*/
+    }
+
+    h1#title {
+        height: 20px;
+        position: absolute;
+        top: 150px;
+        left: 210px;
+        font-weight: bold;
+    }
+
+    
+    div#availtab {
+        height: 80px;
+        width: 325px;
+        padding-top: 5px;
+        font-family: Georgia, "Times New Roman", Times, serif;
+        font-style: italic;
+        text-align: center;
+    }
+    div#availtab span {
+            font-family: Georgia, "Times New Roman", Times, serif;
+            font-style: italic;
+            font-weight: bold;
+            color: #FFFFFF; /* white */
+        }
+    div#availtab a {
+            font-family: Georgia, "Times New Roman", Times, serif;
+            font-style: italic;
+            font-weight: bold;
+            color: #0; /* black*/
+        }
+    div#availtab a:hover {
+                color: #A80CA8; /* lilac */
+            }
+    div#availtab a:visited {
+                color: #FFFFFF; /* white */
+            }
+    div#top_pic_bannerIMG {
+        position: absolute;
+        top: 258px;
+        left: 0px;
+    }
+    
+    .bannerIMG{
+        position: absolute;
+        top: 258px;
+        left: 0px;
+    }
+    
+    .links {
+        position: absolute;
+        top: 485px;
+        font-weight: bold;
+    }
+    .tablelinks {
+        position: absolute;
+        top: 485px;
+    }
+    #left_link {
+        text-align: left;
+        left: 80px;
+        width: 100px;
+    }
+    #left_middle_link {
+        text-align: left;
+        left: 280px;
+        width: 100px;
+    }
+    #middle_link {
+        text-align: center;
+        left: 380px;
+        width: 50px;
+    }
+    #right_middle_link {
+        text-align: left;
+        left: 550px;
+        width: 100px;
+    }
+    #right_link {
+        text-align: right;
+        left: 800px;
+        width: 100px;
+    }
+    #right_link2 {
+        text-align: right;
+        left: 600px;
+        width: 300px;
+    }
+    
+    div#content_wrapper {
+        margin-left: auto;
+        margin-right: auto;
+        width: 1100px;
+        height: 2000px;
+    }
+    div#content {
+        position: relative;
+        margin-left: 100px;
+        background: #0;
+        width: 900px;
+    }
+    h1#page_heading {
+        clear: both;
+        padding: 0px 0px 20px 10px;
+        width: 100%;
+    }
+    div#detail_1col {
+        margin-bottom: 30px;
+        float: left;
+    }
+    h3#direction_title {
+        color: #A80CA8; /* lilac */
+        font-weight: bold;
+        font-size: 1.5em;
+    }
+    div#columms {
+        margin-bottom: 30px;
+    }
+    
+    div#left_coll {
+        float: left;
+        width: 68%;
+        padding: 0 10px 0 0;
+        background: url(../images/vertical_rule.gif) right 0 no-repeat;
+        margin-right: 25px;
+        margin-left: 10px;
+    }
+    div#right_coll {
+        float: left;
+        width: 210px;
+        border-left: solid;
+        border-width: 1px;
+        padding-left: 15px;
+        border-color: #A80CA8; /* lilac */
+    }
+   
+     dl.education_details {
+        font-family: Lucida Sans Unicode, Lucida Grande, Lucida Sans, Lucida, Verdana, Arial, sans-serif;
+    }
+    dl.education_details dt {
+            text-transform: uppercase;
+            padding-bottom: 0.3em;
+            color: #A80CA8; /* lilac */
+            letter-spacing: 0.3em;
+        }
+    dl.education_details dd {
+            color: #A80CA8; /* lilac */
+            line-height: 1.3em;
+            padding-bottom: 1em;
+            letter-spacing: -0.03em;
+        }
+   
+    ul.coursesList {
+        list-style-position: outside;
+    }
+    ul.coursesList li {
+            margin-left: 15px;
+            padding-bottom: 0.5em;
+        }
+    
+    span.text {
+        padding: 5px;
+        width: 100%;
+    }
+</style>
+</head>
+<body id="detail">
+    <div id="main">
+        <h1 id="title">Scott R. Parkman<br>Amature Web-Developer</h1>
+        <p class="contact">
+            email: <a href="mailto:srparkma@asu.edu">srparkma@asu.edu</a><br>
+            Call: 206-856-7726<br>
+            <a href="https://www.linkedin.com/pub/scott-parkman/92/a63/10a">
+                <img src="https://static.licdn.com/scds/common/u/img/webpromo/btn_viewmy_160x25.png" width="160" height="25" border="0" alt="View Scott Parkman's profile on LinkedIn">
+            </a>
+        </p><!-- END: contact info -->
+        <br>
+        <!-- BEGIN: top picture banner -->
+        <img id="img1" class="bannerIMG" src="./CSboard1.jpg" style="opacity: 0.999; z-index: 27;">
+        <img id="img2" class="bannerIMG" src="./CSboard2.jpg" style="opacity: 0; z-index: 24;">
+        <img id="img3" class="bannerIMG" src="./CSboard3.jpg" style="opacity: 0; z-index: 21;">
+        <img id="img4" class="bannerIMG" src="./CSboard4.jpg" style="opacity: 0; z-index: 18;">
+        <img id="img5" class="bannerIMG" src="./CSboard5.jpg" style="opacity: 0; z-index: 15;">
+        <img id="img6" class="bannerIMG" src="./CSboard6.jpg" style="opacity: 0; z-index: 12;">
+        <img id="img7" class="bannerIMG" src="./CSboard7.jpg" style="opacity: 0; z-index: 9;">
+        <img id="img8" class="bannerIMG" src="./CSboard8.jpg" style="opacity: 0; z-index: 6;">
+        <script type="text/javascript" language="JavaScript">
+            var myImageArray = new Array();
+            myImageArray[0] = "img1";
+            myImageArray[1] = "img2";
+            myImageArray[2] = "img3";
+            myImageArray[3] = "img4";
+            myImageArray[4] = "img5";
+            myImageArray[5] = "img6";
+            myImageArray[6] = "img7";
+            myImageArray[7] = "img8";
+            var dwellTime = 2000;
+            var fadeTime = 100;
+            var fadeInterval = 10;
+            var cycles = 0;
+            fade(myImageArray, dwellTime, fadeTime, fadeInterval, cycles);
+        </script>
+        <!-- END: top picture banner -->
+    </div><!-- END: main -->
+    <div id="content">
+    <p>
+    </p><h1 id="page_heading">Welcome</h1><p></p>
+    <div id="columms">
+        <div id="left_coll">
+            <p>
+                <span class="large">Work Experience:</span>
+                <br /><ul>
+                    <li><span class="large">--> Front Desk Assistant | Arizona State University: Res Life - Risk Management</span>
+                        <br /><ul>
+                            <li>
+                                Responsible for: performing key-audits, being knowledgeable of university
+                                policy and experiences, and facilitating security as occupants and visitors enter the residence halls.
+                            </li>
+                        </ul>
+                    </li><br />
+                    <li>
+                        <span class="large">--> Ira A. Fulton Schools of Engineering Residential Council President</span>
+                        <br /><ul>
+                            <li>
+                                Served as the chief liaison and representative of ~884 residents
+                                of Palo Verde Main and East Residence Halls to University Housing and College
+                                Officials.
+                            </li>
+                            <li>
+                                Responsible for managing and reconciling the council's annual budget
+                                totalling > $16,000, signing off on all financial and event planning paperwork,
+                                and helping to develop leadership among community council members.
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </p>
+            <p class="larger">
+                Accomplishments
+                <br />•	Awarded the New American University Scholar - Provost's Award – 2012-2016
+                <br />•	Dean's List Fall 2012 and Spring 2013 semesters (Arizona State University)
+                <br />•	National Society of Collegiate Scholars Member
+                <br />•	Golden Key International Honor Society Member
+                <br />
+                <br />Career Overview
+                <br />•	Proficiency in multiple Computer Programming Languages including Visual Basic,
+                Java, C++, and Object Oriented languages in general.
+                <br />•	Tech-savvy and confident Student-Staff Liaison and Public Relations Specialist with three and a half (3.5) years of experience.
+                <br />•	Poised, friendly, competent team builder and natural leader with experience
+                maintaining a positive and professional manner around people, as well as a high standard of communication.
+
+        </div><!-- END: left_coll -->
+        <div id="right_coll">
+            <h3>Education</h3>
+            <dl class="education_details">
+                <dt>LOCATION</dt>
+                <dd>ASU - Tempe, AZ</dd>
+                <dt>Major</dt>
+                <dd>-> Computer Science</dd>
+                <dt>Minor</dt>
+                <dd>-> Digital Culture</dd>
+                <dt>GPA</dt>
+                <dd>-> 3.14</dd>
+                <dt><br />Courses:</dt>
+                <dd>
+                    <ul class="coursesList">
+                        <li>Programming Principals in:<ul>
+                            <li>Java</li>
+                            <li>C++</li>
+                            <li>Visual Basic</li>
+                            <li>HTML</li>
+                        </ul></li>
+                        <li>Programming for Web Design</li>
+                        <li>Data Structures and Algorithms</li>
+                        <li>Intro to Software Engineering</li>
+                        <li>Computer Networking</li>
+                        <li>Computing Ethics</li>
+                        <li>Law and Social Control</li>
+                    </ul>
+                </dd>
+            </dl>
+        </div><!-- END: right_coll -->
+    </div><!-- END: columms -->
+    <p></p>
+    </div><!-- END: content -->
+</body>
+</html>
